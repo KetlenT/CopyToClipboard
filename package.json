@@ -1,7 +1,7 @@
 {
   "name": "ks-file-upload",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -35,5 +35,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "The `CopyToClipboard` component is a simple yet powerful React functional component that provides users the ability to copy any text (such as links, codes, or information) to their clipboard with a single click. It is designed to enhance user experience with visual feedback through animated icon changes and a toast notification, confirming the success of the copy operation.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KetlenT/CopyToClipboard.git"
+  },
+  "keywords": [
+    "copy",
+    "react",
+    "component"
+  ],
+  "author": "Ketlen T S Colares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KetlenT/CopyToClipboard/issues"
+  },
+  "homepage": "https://github.com/KetlenT/CopyToClipboard#readme"
 }
