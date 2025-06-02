@@ -1,43 +1,36 @@
-# CopyToClipboard React Component Documentation
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Overview
+## Getting Started
 
-The `CopyToClipboard` component is a simple yet powerful React functional component that provides users the ability to copy any text (such as links, codes, or information) to their clipboard with a single click. It is designed to enhance user experience with visual feedback through animated icon changes and a toast notification, confirming the success of the copy operation.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Features
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **Easy Text Copy:** Click the copy button to instantly copy the predefined text to the system clipboard using the modern Clipboard API.
-- **Visual Feedback:**
-  - The copy button icon animates (rotates and color changes) upon successful copying.
-  - The button text changes from "Copy" to "Copied!" momentarily.
-  - A toast notification appears at the bottom of the viewport confirming the copy action.
-- **Accessibility:** The component uses proper `aria` roles and labels to ensure it is accessible for screen readers and assistive technologies.
-- **Modern Design:** Stylish, clean, and responsive layout with smooth animations for modern user interface appeal.
-- **Self-contained:** The component manages all behaviors internally, including copy functionality and UI feedback states.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Component Structure
+## Learn More
 
-The component consists of:
+To learn more about Next.js, take a look at the following resources:
 
-- A non-editable `<textarea>` showing the text content to copy.
-- A copy button with an SVG copy icon and dynamic feedback on click.
-- An animated toast alert that appears on successful copy.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Usage
+## Deploy on Vercel
 
-```jsx
-import CopyToClipboard from './CopyToClipboard';
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-function App() {
-  return (
-    <div>
-      <CopyToClipboard />
-    </div>
-  );
-}
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
