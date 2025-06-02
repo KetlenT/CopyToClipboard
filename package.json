@@ -1,5 +1,5 @@
 {
-  "name": "copy-to-clipboard-react-component",
+  "name": "copy-to-clipboard-react-ks",
   "version": "0.1.0",
   "private": false,
   "scripts": {
@@ -31,5 +31,25 @@
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.3",
     "typescript": "^5"
-  }
+  },
+  "description": "The CopyToClipboard component is a simple yet powerful React functional component that provides users the ability to copy any text (such as links, codes, or information) to their clipboard with a single click. It is designed to enhance user experience with visual feedback through animated icon changes and a toast notification, confirming the success of the copy operation.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KetlenT/CopyToClipboard.git"
+  },
+  "keywords": [
+    "copy",
+    "react",
+    "component"
+  ],
+  "author": "Ketlen T S Colares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KetlenT/CopyToClipboard/issues"
+  },
+  "homepage": "https://github.com/KetlenT/CopyToClipboard#readme"
 }

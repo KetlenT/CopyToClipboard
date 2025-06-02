@@ -32,7 +32,7 @@ The component consists of:
 ## Usage
 
 ```jsx
-import CopyToClipboard from 'copy-to-clipboard-react-component';
+import CopyToClipboard from 'copy-to-clipboard-react-ks';
 
 function App() {
   return (
